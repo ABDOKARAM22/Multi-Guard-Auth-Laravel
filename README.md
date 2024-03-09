@@ -10,33 +10,35 @@ This Laravel project demonstrates the implementation of multi-guard authenticati
 
 ## Installation
 
-1. Clone the repository:**
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/your-username/Multi-Guard-Authentication-Breeze.git
 
-2. Install dependencies:**
+   ```
 
-  ```bash
-  cd Multi-Guard-Authentication-Breeze
-  composer install
-  npm install && npm run dev
+2. **Install dependencies:**
 
-3. Configure environment variables:**
+````bash
+cd Multi-Guard-Authentication-Breeze
+composer install
+npm install && npm run dev
+
+3. **Configure environment variables:**
 
 -Duplicate the `.env.example` file and rename it to `.env`.
 -Configure your database connection in the `.env` file.
 -Ensure you set up separate tables for admins and users and configure the appropriate guards in the `config/auth.php` file.
 
-4. Run migrations:**
+4. **Run migrations:**
 
-  ```bash
-  php artisan migrate
+```bash
+php artisan migrate
 
 5. Serve the application:**
 
-  ```bash
-  php artisan serve
+```bash
+php artisan serve
 
 ## Usage
 -Access the application in your browser and navigate to the appropriate routes for admin and user authentication.
@@ -44,3 +46,4 @@ This Laravel project demonstrates the implementation of multi-guard authenticati
 
 ## Contributing
 Contributions are welcome! Feel free to submit issues and pull requests
+````
