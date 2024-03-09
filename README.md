@@ -14,16 +14,15 @@ This Laravel project demonstrates the implementation of multi-guard authenticati
 
    ```bash
    git clone https://github.com/your-username/Multi-Guard-Authentication-Breeze.git
-
    ```
 
 2. **Install dependencies:**
 
-````bash
+```bash
 cd Multi-Guard-Authentication-Breeze
 composer install
 npm install && npm run dev
-
+```
 3. **Configure environment variables:**
 
 -Duplicate the `.env.example` file and rename it to `.env`.
@@ -34,16 +33,16 @@ npm install && npm run dev
 
 ```bash
 php artisan migrate
-
-5. Serve the application:**
+```
+5. **Serve the application:**
 
 ```bash
 php artisan serve
-
+```
 ## Usage
 -Access the application in your browser and navigate to the appropriate routes for admin and user authentication.
 -Update your profile information through the provided profile update pages.
 
 ## Contributing
 Contributions are welcome! Feel free to submit issues and pull requests
-````
+
